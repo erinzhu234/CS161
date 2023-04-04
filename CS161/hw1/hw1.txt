@@ -1,0 +1,9 @@
+1. For N = 1000, it takes a long time for the program to calculate PAD(1000), and for larger values such as N = 4000,
+the interpreter prompts "RecursionError: maximum recursion depth exceeded". This is because large values of N 
+requires too much recursive calls to itself so that the interpreter might think that the program is getting into 
+infinite recursion, so as it reaches the maximum recursion depth, there will be an execption and the execution will 
+be terminated. 
+
+2. PAD(N) = SUMS(N) + 1
+Since PAD(N) only returns 1 except for recursions, the result of PAD(N) are recursive added up by 1's. Thus, X 
+additions of 1's will produce a sum of X+1. To produce PAD(N) as the sum of 1's, PAD(N) - 1 additions are needed. 

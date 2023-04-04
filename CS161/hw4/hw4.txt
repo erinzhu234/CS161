@@ -1,0 +1,9 @@
+1. Graph 1 with 3 colors is not satisfiable
+
+2. Graph 1 with 4 colors is satisfiable
+
+3. Graph 1 becomes solvable only with 4 or more colors
+   It will be hard to find a solution based on the results of RSat as it does not provide values 
+   of variables and only provides running results and whether it is satisfiable. 
+
+4. 8 colors. 
